@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+$font-stack1: 'Inter', 'Montserrat', Arial, Helvetica, sans-serif;
+
+$light-color: #fff;
+$dark-color: #333;
+
+body {
+  font-family: $font-stack1;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
