@@ -21,6 +21,21 @@
     }
   }
 
+  #section-11 {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  #section-12 {
+    figcaption {
+      top: 0;
+      right: 0;
+    }
+  }
+
   .attr {
     font-size: 1.6rem;
   }
