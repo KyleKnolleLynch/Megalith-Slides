@@ -11,6 +11,8 @@ body {
 
 .small {
   font-size: 1rem;
+  line-height: 2.2;
+  letter-spacing: initial;
 }
 
 @mixin mediaMd {
