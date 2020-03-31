@@ -8,9 +8,6 @@
       letter-spacing: 0.1rem;
       margin-top: -0.8rem;
     }
-    li {
-      background: #fff;
-    }
   }
   #section-1 {
     span {
@@ -23,6 +20,19 @@
   #section-2 {
     .reasons p {
       padding-left: 2rem;
+    }
+  }
+
+  #section-6,
+  #section-8,
+  #section-11,
+  #section-13,
+  #section-16,
+  #section-17,
+  #section-18,
+  #section-19 {
+    li {
+      background: #fff;
     }
   }
 
@@ -65,14 +75,14 @@
     }
   }
 
- #section-22 {
-   a {
-     font-size: inherit;
-   }
-   .credits {
-     font-style: italic;
-   }
- }
+  #section-22 {
+    a {
+      font-size: inherit;
+    }
+    .credits {
+      font-style: italic;
+    }
+  }
 
   .attr {
     font-size: 1.6rem;
