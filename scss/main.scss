@@ -12,10 +12,12 @@
       background: #fff;
     }
   }
-  #section-1 span {
-    background: url('/images/meroe.jpg') no-repeat bottom center;
-    background-size: cover;
-    opacity: 0.8;
+  #section-1 {
+    span {
+      background: url('/images/meroe.jpg') no-repeat bottom center;
+      background-size: cover;
+      opacity: 0.8;
+    }
   }
 
   #section-2 {
@@ -62,6 +64,15 @@
       text-align: end;
     }
   }
+
+ #section-22 {
+   a {
+     font-size: inherit;
+   }
+   .credits {
+     font-style: italic;
+   }
+ }
 
   .attr {
     font-size: 1.6rem;
