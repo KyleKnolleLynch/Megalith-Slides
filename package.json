@@ -1,0 +1,23 @@
+{
+  "name": "megalith-slides",
+  "version": "1.0.0",
+  "description": "slideshow project featuring megaliths",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleKnolleLynch/Megalith-Slides.git"
+  },
+  "author": "Kyle Lynch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleKnolleLynch/Megalith-Slides/issues"
+  },
+  "homepage": "https://KyleKnolleLynch.github.io/Megalith-Slides",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
